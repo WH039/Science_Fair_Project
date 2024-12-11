@@ -390,7 +390,7 @@ int main() {
 			
 			for (int i = 0; i < finches.size(); i++) {
 				int population = finches[i].getTotalPopulation();
-				int next_population = population * finches[i].getSurvivalChance();
+				int next_population = population * (finches[i].getSurvivalChance() / 100);
 				finches[i].setTotalPopulation(next_population);
 			}
 			int roll1 = rand() % 100 + 1;

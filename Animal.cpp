@@ -82,7 +82,7 @@ void ANIMAL::Animal::setNewAttribute(int a)
 	
 }
 
-void Animal::addSurvivalChance(int chance)
+void Animal::addSurvivalChance(double chance)
 {
 	survivalChance += chance;
 }
@@ -106,7 +106,7 @@ int Animal::getTotalPopulation()
 	return totalPopulation;
 }
 
-int Animal::getSurvivalChance()
+double Animal::getSurvivalChance()
 {
 	return survivalChance;
 }

@@ -12,7 +12,7 @@ namespace ANIMAL {
 	class Animal {
 	private:
 		int totalPopulation;
-		int survivalChance;
+		double survivalChance;
 		int stamina;
 		string primaryAttribute;
 		string secondaryAttribute;
@@ -26,12 +26,12 @@ namespace ANIMAL {
 		void setNewAttribute(int);
 		void setTask(string);
 
-		void addSurvivalChance(int);
+		void addSurvivalChance(double);
 		void useStamina(int);
 
 		void displayAllInfo();
 		int getTotalPopulation();
-		int getSurvivalChance();
+		double getSurvivalChance();
 		int getStamina();
 		string getAttribute(int);
 		string getTask();

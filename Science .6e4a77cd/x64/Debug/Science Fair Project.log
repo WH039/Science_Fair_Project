@@ -1,3 +1,8 @@
-﻿  main.cpp
+﻿  Animal.cpp
+  main.cpp
 C:\Users\a9284\Documents\GitHub\Science Fair Project\Science_Fair_Project\main.cpp(18,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\a9284\Documents\GitHub\Science Fair Project\Science_Fair_Project\main.cpp(393,25): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\a9284\Documents\GitHub\Science Fair Project\Science_Fair_Project\main.cpp(429,25): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  Generating Code...
+C:\Users\a9284\Documents\GitHub\Science Fair Project\Science_Fair_Project\Animal.cpp(127,1): warning C4715: 'ANIMAL::Animal::getAttribute': not all control paths return a value
   Science Fair Project.vcxproj -> C:\Users\a9284\Documents\GitHub\Science Fair Project\Science_Fair_Project\x64\Debug\Science Fair Project.exe
