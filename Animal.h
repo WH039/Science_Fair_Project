@@ -14,7 +14,8 @@ namespace ANIMAL {
 		int totalPopulation;
 		int survivalChance;
 		int stamina;
-		string attributes;
+		string primaryAttribute;
+		string secondaryAttribute;
 		string previousTask;
 
 	public:
@@ -22,6 +23,7 @@ namespace ANIMAL {
 
 		void setTotalPopulation(int);
 		void setAttribute(string);
+		void setNewAttribute(int);
 		void setTask(string);
 
 		void addSurvivalChance(int);
@@ -31,7 +33,7 @@ namespace ANIMAL {
 		int getTotalPopulation();
 		int getSurvivalChance();
 		int getStamina();
-		string getAttribute();
+		string getAttribute(int);
 		string getTask();
 	};
 }

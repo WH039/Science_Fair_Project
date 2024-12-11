@@ -5,7 +5,7 @@ using namespace ANIMAL;
 Animal::Animal()
 {
 	survivalChance = 0;
-	stamina = 100;
+	stamina = 60;
 	previousTask = "none";
 }
 
@@ -16,7 +16,7 @@ void Animal::setTotalPopulation(int tp)
 
 void Animal::setAttribute(string a)
 {
-	attributes = a;
+	primaryAttribute = a;
 	
 	/*
 	srand(time(0));
@@ -36,6 +36,50 @@ void Animal::setAttribute(string a)
 
 	}
 	*/
+}
+
+void ANIMAL::Animal::setNewAttribute(int a)
+{
+	if (secondaryAttribute == "longbeak" || secondaryAttribute == "shortbeak" || secondaryAttribute == "longlegs" || secondaryAttribute == "smallbody")
+	{
+		secondaryAttribute = secondaryAttribute;
+	}
+	else {
+
+		if (primaryAttribute == "longbeak") {
+			if (a == 1) {
+				secondaryAttribute = "longlegs";
+			}
+			else if (a == 0) {
+				secondaryAttribute = "smallbody";
+			}
+		}
+		if (primaryAttribute == "shortbeak") {
+			if (a == 1) {
+				secondaryAttribute = "longlegs";
+			}
+			else if (a == 0) {
+				secondaryAttribute = "smallbody";
+			}
+		}
+		if (primaryAttribute == "longlegs") {
+			if (a == 1) {
+				secondaryAttribute = "longbeak";
+			}
+			else if (a == 0) {
+				secondaryAttribute = "shortbeak";
+			}
+		}
+		if (primaryAttribute == "smallbody") {
+			if (a == 1) {
+				secondaryAttribute = "longbeak";
+			}
+			else if (a == 0) {
+				secondaryAttribute = "shortbeak";
+			}
+		}
+	}
+	
 }
 
 void Animal::addSurvivalChance(int chance)
@@ -72,9 +116,14 @@ int ANIMAL::Animal::getStamina()
 	return stamina;
 }
 
-string Animal::getAttribute()
+string Animal::getAttribute(int n)
 {
-	return attributes;
+	if (n == 1) {
+		return primaryAttribute;
+	}
+	else if (n == 2) {
+		return secondaryAttribute;
+	}
 }
 
 string Animal::getTask()

@@ -1,5 +1,21 @@
 #include "Game.h"
 
+string rollTheDice(int dice)
+{
+	if (dice == 1) {
+		return "longbeak";
+	}
+	else if (dice == 2) {
+		return "shortbeak";
+	}
+	else if (dice == 3) {
+		return "longlegs";
+	}
+	else if (dice == 4) {
+		return "smallbody";
+	}
+}
+
 void displayGameRules()
 {
 	cout << "Welcome to Fragmentation Simulator" << endl;

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\a9284\\Documents\\GitHub\\Science Fair Project\\Science_Fair_Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6E4A77CD-9459-4FC1-A27A-5CC68A65BEA3}|Science Fair Project.vcxproj|C:\\Users\\a9284\\Documents\\GitHub\\Science Fair Project\\Science_Fair_Project\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6E4A77CD-9459-4FC1-A27A-5CC68A65BEA3}|Science Fair Project.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\a9284\\Documents\\GitHub\\Science Fair Project\\Science_Fair_Project\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "C:\\Users\\a9284\\Documents\\GitHub\\Science Fair Project\\Science_Fair_Project\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AgIAAHYBAAAAAAAAAAAIwH8BAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-10T03:25:49.545Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

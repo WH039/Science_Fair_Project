@@ -1,3 +1,3 @@
 ﻿  main.cpp
-C:\Users\a9284\Documents\GitHub\Science Fair Project\Science Fair Project\main.cpp(18,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  Science Fair Project.vcxproj -> C:\Users\a9284\Documents\GitHub\Science Fair Project\Science Fair Project\x64\Debug\Science Fair Project.exe
+C:\Users\a9284\Documents\GitHub\Science Fair Project\Science_Fair_Project\main.cpp(18,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Science Fair Project.vcxproj -> C:\Users\a9284\Documents\GitHub\Science Fair Project\Science_Fair_Project\x64\Debug\Science Fair Project.exe

@@ -5,5 +5,6 @@
 
 using namespace std;
 
+string rollTheDice(int);
 void displayGameRules();
 void gameOverScreen();
