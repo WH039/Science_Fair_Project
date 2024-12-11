@@ -28,7 +28,7 @@ void displayGameRules()
 	cout << "            You can choose to perform tasks with a limited amount of stamina points" << endl;
 	cout << "            Once you run out of stamina points on all of your population, the next stage will begin" << endl;
 	cout << endl;
-	cout << "            You win when by the 4th stage you hav atleast 4 members of a specific attribute population left" << endl;
+	cout << "            You win when by the 4th stage you have atleast 4 members of a specific attribute population left" << endl;
 	cout << "            (for reproductive purposes)" << endl;
 	cout << endl;
 	cout << "            Please do not open any other programs or use the computer outside of the demonstration window." << endl;

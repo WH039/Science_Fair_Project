@@ -5,7 +5,7 @@ using namespace ANIMAL;
 Animal::Animal()
 {
 	survivalChance = 0;
-	stamina = 60;
+	stamina = 80;
 	previousTask = "none";
 }
 
@@ -80,6 +80,11 @@ void ANIMAL::Animal::setNewAttribute(int a)
 		}
 	}
 	
+}
+
+void ANIMAL::Animal::resetStamina()
+{
+	stamina = 80;
 }
 
 void Animal::addSurvivalChance(double chance)

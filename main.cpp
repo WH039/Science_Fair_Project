@@ -104,6 +104,13 @@ int main() {
 				cin >> finchChoice;
 			}
 
+			if (finchChoice != 0 && finchChoice != 1 && finchChoice != 2 && finchChoice != 3) {
+				cout << "Please make a choice present" << endl;
+				finchChoice = 0;
+				system("pause");
+				cin >> finchChoice;
+			}
+
 			system("cls");
 
 			cout << "Please choose a task:" << endl;
@@ -112,6 +119,13 @@ int main() {
 			cout << "                      (3) build nest" << endl;
 			cout << "Choice: ";
 			cin >> taskChoice;
+
+			if (taskChoice != 1 && taskChoice != 2 && taskChoice != 3) {
+				cout << "Please make a choice present" << endl;
+				taskChoice = 0;
+				system("pause");
+				cin >> taskChoice;
+			}
 
 			string attribute = finches[finchChoice].getAttribute(1);
 			string secondAttribute = finches[finchChoice].getAttribute(2);
@@ -186,6 +200,7 @@ int main() {
 						finches[finchChoice].addSurvivalChance(chance);
 					}
 				}
+				
 			}
 
 			if (stage > 0) {
@@ -392,6 +407,7 @@ int main() {
 				int population = finches[i].getTotalPopulation();
 				int next_population = population * (finches[i].getSurvivalChance() / 100);
 				finches[i].setTotalPopulation(next_population);
+				finches[i].resetStamina();
 			}
 			int roll1 = rand() % 100 + 1;
 			int roll2 = (rand() % 100 + 1) / 25;
@@ -426,8 +442,10 @@ int main() {
 
 			for (int i = 0; i < finches.size(); i++) {
 				int population = finches[i].getTotalPopulation();
-				int next_population = population * finches[i].getSurvivalChance();
+				int next_population = population * (finches[i].getSurvivalChance() / 100);
 				finches[i].setTotalPopulation(next_population);
+				finches[i].resetStamina();
+
 			}
 			int roll1 = rand() % 100 + 1;
 			int roll2 = (rand() % 100 + 1) / 25;
@@ -447,6 +465,7 @@ int main() {
 					finches[roll2].setNewAttribute(roll3);
 				}
 			}
+
 		}
 
 		if (finches[0].getTotalPopulation() <= 0 || finches[1].getTotalPopulation() <= 0 || finches[2].getTotalPopulation() <= 0 || finches[3].getTotalPopulation() <= 0) {

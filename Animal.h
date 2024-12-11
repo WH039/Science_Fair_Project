@@ -26,6 +26,7 @@ namespace ANIMAL {
 		void setNewAttribute(int);
 		void setTask(string);
 
+		void resetStamina();
 		void addSurvivalChance(double);
 		void useStamina(int);
 
