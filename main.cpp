@@ -202,6 +202,11 @@ int main() {
 							finches[finchChoice].useStamina(20);
 							finches[finchChoice].addSurvivalChance(chance);
 						}
+						else {
+							chance = 10;
+							finches[finchChoice].useStamina(20);
+							finches[finchChoice].addSurvivalChance(chance);
+						}
 					}
 					else if (attribute == "shortbeak") {
 						if (secondAttribute == "longlegs") {
@@ -211,6 +216,11 @@ int main() {
 						}
 						else if (secondAttribute == "smallbody") {
 							chance = 15;
+							finches[finchChoice].useStamina(20);
+							finches[finchChoice].addSurvivalChance(chance);
+						}
+						else {
+							chance = 10;
 							finches[finchChoice].useStamina(20);
 							finches[finchChoice].addSurvivalChance(chance);
 						}
@@ -226,6 +236,11 @@ int main() {
 							finches[finchChoice].useStamina(20);
 							finches[finchChoice].addSurvivalChance(chance);
 						}
+						else {
+							chance = 10;
+							finches[finchChoice].useStamina(20);
+							finches[finchChoice].addSurvivalChance(chance);
+						}
 					}
 					else if (attribute == "smallbody") {
 						if (secondAttribute == "longbeak") {
@@ -235,6 +250,11 @@ int main() {
 						}
 						else if (secondAttribute == "shortbeak") {
 							chance = 15;
+							finches[finchChoice].useStamina(20);
+							finches[finchChoice].addSurvivalChance(chance);
+						}
+						else {
+							chance = 10;
 							finches[finchChoice].useStamina(20);
 							finches[finchChoice].addSurvivalChance(chance);
 						}
@@ -254,6 +274,11 @@ int main() {
 							finches[finchChoice].useStamina(20);
 							finches[finchChoice].addSurvivalChance(chance);
 						}
+						else {
+							chance = 10;
+							finches[finchChoice].useStamina(20);
+							finches[finchChoice].addSurvivalChance(chance);
+						}
 					}
 					else if (attribute == "shortbeak") {
 						if (secondAttribute == "longlegs") {
@@ -263,6 +288,11 @@ int main() {
 						}
 						else if (secondAttribute == "smallbody") {
 							chance = 20;
+							finches[finchChoice].useStamina(20);
+							finches[finchChoice].addSurvivalChance(chance);
+						}
+						else {
+							chance = 25;
 							finches[finchChoice].useStamina(20);
 							finches[finchChoice].addSurvivalChance(chance);
 						}
@@ -278,6 +308,11 @@ int main() {
 							finches[finchChoice].useStamina(20);
 							finches[finchChoice].addSurvivalChance(chance);
 						}
+						else {
+							chance = 15;
+							finches[finchChoice].useStamina(20);
+							finches[finchChoice].addSurvivalChance(chance);
+						}
 					}
 					else if (attribute == "smallbody") {
 						if (secondAttribute == "longbeak") {
@@ -287,6 +322,11 @@ int main() {
 						}
 						else if (secondAttribute == "shortbeak") {
 							chance = 5;
+							finches[finchChoice].useStamina(20);
+							finches[finchChoice].addSurvivalChance(chance);
+						}
+						else {
+							chance = 15;
 							finches[finchChoice].useStamina(20);
 							finches[finchChoice].addSurvivalChance(chance);
 						}
