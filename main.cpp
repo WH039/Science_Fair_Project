@@ -90,7 +90,7 @@ int main() {
 			
 			cout << "Please choose a finch:" << endl;
 			for (int i = 0; i < finches.size(); i++) {
-				cout << "(" << i + 1 << ")" << " Finch " << i + 1 << endl;
+				cout << "(" << i << ")" << " Finch " << i + 1 << endl;
 			}
 			cout << "Choice: ";
 			cin >> finchChoice;
@@ -98,7 +98,7 @@ int main() {
 			if (finches[finchChoice].getStamina() <= 0) {
 				cout << "Please choose another finch:" << endl;
 				for (int i = 0; i < finches.size(); i++) {
-					cout << "(" << i + 1 << ")" << " Finch " << i + 1 << endl;
+					cout << "(" << i << ")" << " Finch " << i + 1 << endl;
 				}
 				cout << "Choice: ";
 				cin >> finchChoice;
